@@ -1,0 +1,14 @@
+{
+  "name": "jest-open-handle-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "test-no-promise": "yarn test test-no-promise.spec.js",
+    "test-promise": "yarn test test-promise.spec.js"
+  }
+}
